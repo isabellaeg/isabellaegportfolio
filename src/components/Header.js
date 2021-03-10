@@ -7,14 +7,6 @@ const Header = () => {
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          <Fade bottom>
-            <h2>
-              Hi, I'm {data.name}{" "}
-              <span role="img" aria-label="Emoji">
-                👋
-              </span>
-            </h2>
-          </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
@@ -28,12 +20,6 @@ const Header = () => {
                   ? data.headerTagline[1]
                   : "products, brands"}
               </h1>
-              <h1>
-                {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
-              </h1>
             </div>
           </Fade>
           <Fade bottom>
@@ -41,12 +27,10 @@ const Header = () => {
           </Fade>
           <Fade bottom>
             <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
-              }`}
-              className="primary-btn"
+              href={`mailto:${data.contactEmail}`}
+              className="my-btn"
             >
-              CONNECT WITH ME
+              Connect with me
             </a>
           </Fade>
         </div>
