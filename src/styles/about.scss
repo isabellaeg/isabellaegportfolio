@@ -44,6 +44,9 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    img {
+      margin-top: 0px;
+    }
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }

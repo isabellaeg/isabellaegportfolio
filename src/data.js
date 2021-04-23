@@ -10,35 +10,28 @@ import vueIcon from "./images/vue.png"
 import vuetifyIcon from "./images/vuetify.png"
 import gatsbyIcon from "./images/gatsby-icon.png"
 import Isabella from "./images/isabella.png"
+import Wimet from './images/wimet.png'
+import Democracy from './images/democracy.png'
 
-// Social Icon
 import githubIcon from "./images/github.svg"
-import codepenIcon from "./images/codepen.svg"
-import dribbbleIcon from "./images/dribbble.svg"
-import instagramIcon from "./images/instagram.svg"
+import LinkedIn from "./images/linkedd.svg"
 
 export default {
   name: "Isabella",
   headerTagline: [
-    //Line 1 For Header
     "Isabella Esquivel",
     "Full Stack Developer",
   ],
-  //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-
+    "I'm a Full Stack Developer with an inclination towards Front End Development and Design",
   contactEmail: "isabellaesquivelg@gmail.com",
-
-  // Work Section ------------------------
   projects: [
     {
       id: 1,
       title: "Democracy.earth", 
       para:
         "DAO proposal launcher for open-source project", 
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: Democracy,
       url: "http://democracy.earth/",
     },
     {
@@ -52,25 +45,24 @@ export default {
     },
     {
       id: 3,
-      title: "Project Three", 
+      title: "Canal Musical E-Commerce", 
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+        "E-Commerce developed with React, Node and PSQL. it features product listing and flteirng through categories, a functional shopping cart, user login and registration and an admin panel.",
       imageSrc:
         "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       url: "http://chetanverma.com/",
     },
     {
       id: 4, 
-      title: "Project Four",
+      title: "Wimet",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
-      imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      url: "http://chetanverma.com/",
+        "I work as a front-end software engineer for Wimet, developing new designs as well as maintaining and imporving the site constantly", 
+      imageSrc: Wimet,
+      url: "http://wimet.co/",
     },
     {
       id: 5, 
-      title: "Project Five", 
+      title: "E-Commerce", 
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", 
       imageSrc:
@@ -90,11 +82,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+    "I'm 23 years old from Venezuela but currently living in Buenos Aires, Argentina. I originally began studying Vterinarty Medicine but changed career path when i discovered my passion for Programming",
   aboutParaTwo:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "I think one quallity that defies me most is my curiosity, i lover learning and i am in constant search for something new to learn wether its a new framework or a new language",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "I consider myself very creative and thats why i've leaned towards Fron End Development mostly, i feel i can truly let that crative side shine through while being able to write code and challenge myself.",
   aboutImage: Isabella,
 
   // Skills Section ---------------
@@ -170,16 +162,8 @@ export default {
   social: [
     { img: githubIcon, url: "https://github.com/isabellaeg" },
     {
-      img: codepenIcon,
-      url: "https://www.codepen.com/",
-    },
-    {
-      img: dribbbleIcon,
-      url: "https://dribbble.com/chetanverma",
-    },
-    {
-      img: instagramIcon,
-      url: "https://www.instagram.com/",
+      img: LinkedIn,
+      url: "https://www.linkedin.com/in/isabella-e-725051144/",
     },
   ],
 }
